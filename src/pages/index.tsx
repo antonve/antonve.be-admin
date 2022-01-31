@@ -5,6 +5,6 @@ const Home: NextPage = () => {
   return <div className="">Hello admin</div>
 }
 
-export const getServerSideProps = withAuth(() => {})
+export const getServerSideProps = withAuth(() => { return { props: {}}})
 
 export default Home
